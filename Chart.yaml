@@ -1,0 +1,9 @@
+apiVersion: v2
+name: local-cluster-redis
+description: Wrapper chart for installing Redis on a local cluster via the Bitnami chart.
+type: application
+version: 0.1.0
+dependencies:
+  - name: redis
+    version: "21.x.x"
+    repository: "https://charts.bitnami.com/bitnami"

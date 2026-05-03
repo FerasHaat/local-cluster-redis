@@ -1,0 +1,1 @@
+Redis is installed through the Bitnami dependency chart.
